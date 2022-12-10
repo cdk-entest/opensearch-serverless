@@ -15,7 +15,7 @@ date: 06-11-2022
 
 ## Architecture
 
-![Untitled Diagram drawio](https://user-images.githubusercontent.com/20411077/206821492-ef57cd4e-6ff8-4fdc-a439-8785767d15cf.png)
+![Untitled Diagram drawio](https://user-images.githubusercontent.com/20411077/206821536-fd46f9e1-742f-4060-9d47-cbf5b72bd282.png)
 
 
 ## Configure Permission
