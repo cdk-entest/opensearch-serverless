@@ -17,7 +17,6 @@ date: 06-11-2022
 
 ![Untitled Diagram drawio](https://user-images.githubusercontent.com/20411077/206821536-fd46f9e1-742f-4060-9d47-cbf5b72bd282.png)
 
-
 ## Configure Permission
 
 from opensearch aws console, need grant permission to user, role to access collection and index by polcies, example
