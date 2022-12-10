@@ -143,3 +143,11 @@ delete a document given the document id
 ```py
 client.delete(index=index_name, id=id)
 ```
+
+## Troubleshooting
+
+update boto3
+
+```bash
+python3 -m pip install boto3 --upgrade
+```
