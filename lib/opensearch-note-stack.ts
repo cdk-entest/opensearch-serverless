@@ -23,7 +23,7 @@ export class OpensearchNoteStack extends cdk.Stack {
       memorySize: 512,
       timeout: Duration.seconds(10),
       code: cdk.aws_lambda.EcrImageCode.fromAssetImage(
-        path.join(__dirname, "./../lambda")
+        path.join(__dirname, "./../lambda-query-oss")
       ),
       handler: cdk.aws_lambda.Handler.FROM_IMAGE,
       runtime: cdk.aws_lambda.Runtime.FROM_IMAGE,
