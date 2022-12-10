@@ -67,6 +67,8 @@ client = OpenSearch(
 )
 ```
 
+## Basic Operation
+
 create an index
 
 ```py
