@@ -19,7 +19,7 @@ date: 2022-12-07
 
 ![Untitled Diagram drawio](https://user-images.githubusercontent.com/20411077/206821536-fd46f9e1-742f-4060-9d47-cbf5b72bd282.png)
 
-[Demo Video](https://d2cvlmmg8c0xrp.cloudfront.net/opensearch-demo.mov)
+[Demo Video](https://d2cvlmmg8c0xrp.cloudfront.net/opensearch.mov)
 
 ## Configure Permission
 
