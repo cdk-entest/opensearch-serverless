@@ -1,12 +1,14 @@
 ---
-title: opensearch serverless
-description: build a note bookmark using opensearch serverless
+title: OpenSearch Serverless
+description: build a note bookmark app using opensearch
 author: haimtran
-publishedDate: 06/11/2022
-date: 06-11-2022
+publishedDate: 07/12/2022
+date: 2022-12-07
 ---
 
 ## Introduction
+
+[Github](https://github.com/cdk-entest/opensearch-serverless) this shows how to setup opensearch serverless to build a note bookmark application. Frontend updated later on.
 
 - setup aws opensearch
 - interact via curl
@@ -22,7 +24,24 @@ date: 06-11-2022
 from opensearch aws console, need grant permission to user, role to access collection and index by polcies, example
 
 ```json
-
+[
+  {
+    "Rules": [
+      {
+        "Resource": ["collection/test"],
+        "Permission": ["aoss:*"],
+        "ResourceType": "collection"
+      },
+      {
+        "Resource": ["index/test/*"],
+        "Permission": ["aoss:*"],
+        "ResourceType": "index"
+      }
+    ],
+    "Principal": ["arn:aws:iam::$ACCOUNT_ID:role/RoleForLambdaIndexOpenSearch"],
+    "Description": "lambdaindexopensearch"
+  }
+]
 ```
 
 ## OpenSearch Client
